@@ -703,5 +703,30 @@ form .btn-primary:hover {
 .hero h2 {
   color: #333 !important;
 }
+/* === Organization name styles === */
+.org-name-am {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: orange;
+  line-height: 1.1;
+}
+
+.org-name-en {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: orange;
+  white-space: nowrap;
+}
+
+/* === Responsive adjustment for mobile === */
+@media (max-width: 768px) {
+  .org-name-am {
+    font-size: 0.9rem;
+  }
+  .org-name-en {
+    font-size: 0.75rem;
+    line-height: 1.1;
+  }
+}
 
 
