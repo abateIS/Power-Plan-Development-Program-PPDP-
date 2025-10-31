@@ -637,13 +637,71 @@ body {
 }
 /* === FADED HERO TITLE === */
 .faded-title {
-  opacity: 0.4 !important;   /* 👈 force the effect */
-  transition: opacity 0.6s ease;
+  opacity: 0.8 !important;   /* 👈 force the effect */
+  transition: opacity 0.8s ease;
 }
 
 .faded-title:hover {
   opacity: 1 !important;
 }
 
+form .btn-primary {
+  background-color: #4a6fa5;
+  border-color: #4a6fa5;
+}
+form .btn-primary:hover {
+  background-color: #3b5e91;
+}
+.org-name-am,
+.org-name-en {
+  color: #ff9800 !important; /* bright orange tone */
+  line-height: 1.1;
+  font-family: "Noto Sans Ethiopic", "Segoe UI", Roboto, sans-serif;
+}
+
+.org-name-am {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.org-name-en {
+  font-size: 0.9rem;
+  font-weight: 600;
+  opacity: 0.95;
+  letter-spacing: 0.5px;
+}
+.org-name-am,
+.org-name-en {
+  color: #ff9800 !important; /* orange tone */
+  font-family: "Noto Sans Ethiopic", "Segoe UI", Roboto, sans-serif;
+  line-height: 1.1;
+  transition: all 0.3s ease;
+}
+
+/* Amharic name — larger and bold */
+.org-name-am {
+  font-size: 1.45rem;  /* increased size */
+  font-weight: 800;
+}
+
+/* English name — slightly smaller */
+.org-name-en {
+  font-size: 1.35rem;  /* increased size */
+  font-weight: 600;
+  opacity: 0.95;
+  letter-spacing: 0.7px;
+}
+
+/* On hover, both names slightly brighten */
+.navbar-brand:hover .org-name-am,
+.navbar-brand:hover .org-name-en {
+  color: #ffb74d !important;
+}
+.hero {
+  padding-top: 7rem; /* space below navbar */
+}
+.hero h2 {
+  color: #333 !important;
+}
 
 

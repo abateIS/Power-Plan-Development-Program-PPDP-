@@ -16,15 +16,25 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top pencil-navbar shadow-sm">
       <div className="container">
-        <Link className="navbar-brand d-flex align-items-center" to="/">
-          <img
-            src="/logos.png"
-            alt="PPDP Logo"
-            className="me-2"
-            style={{ height: "50px", width: "auto" }}
-          />
-          <span className="fw-bold org-name">{ORG.name}</span>
-        </Link>
+      <Link className="navbar-brand d-flex align-items-center" to="/">
+  <img
+    src="/logos.png"
+    alt="PPDP Logo"
+    className="me-2"
+    style={{ height: "55px", width: "auto" }}
+  />
+  <div className="d-flex flex-column lh-sm">
+    {/* Amharic Name */}
+    <span className="org-name-am">
+      ፓወር ፕላን የልማት ፕሮግራም
+    </span>
+    {/* English Name */}
+    <span className="org-name-en">
+      POWER PLAN DEVELOPMENT PROGRAM
+    </span>
+  </div>
+</Link>
+
 
         <button
           className="navbar-toggler"

@@ -7,9 +7,9 @@ function Hero() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-7">
-            <h1 className="display-5 fw-bold">Empowering communities across Ethiopia</h1>
+            <h3 className="display-5 fw-bold">We inspire and enable people to change their lives and the world around them!</h3>
             <p className="lead text-muted">
-              {ORG.name} works to empower women, youth and marginalized groups through community-led, sustainable programs.
+              {ORG.name} We inspire and enable people to change their lives and the world around them!
             </p>
             <div className="mt-3">
               <a className="btn btn-primary btn-lg me-2" href="/programs">Our Programs</a>

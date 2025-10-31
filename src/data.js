@@ -2,7 +2,7 @@
 // Shared organization information and program data
 
 export const ORG = {
-  name: "Power Plan Development Program (PPDP)",
+  name: "POWER PLAN DEVELOLMENT PROGRAM |ፓወር ፕላን የልማት ፕሮግራም",
   regNo: "3662/2019",
   tin: "0052082632",
   headquarters: "Addis Ababa, Ethiopia",

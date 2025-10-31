@@ -12,9 +12,11 @@ function Home() {
             <div className="col-lg-7 col-md-12 text-lg-start text-center">
             <h1
   className="display-5 fw-bold mb-3 faded-title"
+  style={{ color: "#40E0D0" }} // turquoise blue
 >
-  Empowering Communities Across Ethiopia
+  We inspire and enable people to change their lives and the world around them!
 </h1>
+
 
               <p className="lead text-muted mb-4">
                 <strong style={{ fontSize: "1.25rem", color: "#0d6efd" }}>
