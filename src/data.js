@@ -2,7 +2,7 @@
 // Shared organization information and program data
 
 export const ORG = {
-  name: "POWER PLAN DEVELOLMENT PROGRAM |ፓወር ፕላን የልማት ፕሮግራም",
+  name: "POWER PLAN DEVELOLMENT PROGRAM ፓወር ፕላን የልማት ፕሮግራም",
   regNo: "3662/2019",
   tin: "0052082632",
   headquarters: "Addis Ababa, Ethiopia",
@@ -58,6 +58,6 @@ export const PROGRAMS = [
 
 export const TEAM = [
   { name: "Berihun Eyasu Reta", role: "Co-Director General" },
-  { name: "Etsegenet Milugeta", role: "Co-Director of Programs" },
+  { name: "Etsegenet Mulugeta", role: "Co-Director of Programs" },
   { name: "Abraham Tsegaye", role: "Director, Grants & Finance" }
 ];

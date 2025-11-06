@@ -5,7 +5,7 @@ function Team() {
   const imageMap = {
     "Berihun Eyasu Reta": "/Berihun.png",
     "Abraham Tsegaye": "/Abraham.png",
-    "Etsegenet Milugeta": "/Etsegenet.png",
+    "Etsegenet Mulugeta": "/Etsegenet.png",
   };
 
   return (
