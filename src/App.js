@@ -8,7 +8,7 @@ import Programs from "./pages/Programs.js";
 import Projects from "./pages/Projects.js";
 import Team from "./pages/Team.js";
 import Contact from "./pages/Contact.js";
-
+import Gallery from "./pages/Gallery";
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/gallery" element={<Gallery />} />
         </Routes>
       </main>
       <Footer />

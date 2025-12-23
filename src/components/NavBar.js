@@ -56,6 +56,12 @@ function NavBar() {
               <NavLink onClick={handleLinkClick} className="nav-link" to="/">Home</NavLink>
             </li>
             <li className="nav-item">
+  <NavLink onClick={handleLinkClick} className="nav-link" to="/gallery">
+    Gallery
+  </NavLink>
+</li>
+
+            <li className="nav-item">
               <NavLink onClick={handleLinkClick} className="nav-link" to="/about">About</NavLink>
             </li>
             <li className="nav-item">
